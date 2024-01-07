@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.banner {
+    background-image: url(../images/banner1.png);
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: left-bottom;
+    background-size: cover;
+    height: 800px;
+}
+
+.banner-text {}
+
+#banner-heading {
+    color: var(--Dark-01, #151414);
+    text-align: right;
+    width: 525px;
+    height: 228px;
+    font-size: 65px;
+    font-weight: 700;
+    margin-left: 845px;
+    padding-top: 216px;
+
+
+}
+
+#banner-description {
+    color: var(--Dark-02, #444343);
+    text-align: right;
+    width: 494px;
+    height: 78px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 876px;
+    padding-top: 24px;
+
+
+}
+
+.primary-button {
+    border-radius: 5px;
+    background: #F15B22;
+    border: 0;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700px;
+    padding: 21px 26px;
+    margin-left: 1210px;
+}
+
+.upper {
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    padding-top: 140px;
+}
+
+.a-man {
+    margin-left: 206px;
+
+
+
+
+
+
+}
+
+.failure-description {
+    margin-right: 322px;
+}
+
+.body-heading {
+    width: 288px;
+    height: 94px;
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 24px;
+}
+
+.body-description {
+    width: 416px;
+    height: 104px;
+    color: #444343;
+
+    font-size: 16px;
+
+    font-weight: 400;
+}
+
+li {
+    list-style: none;
+    color: var(--Dark-02, #444343);
+
+    font-size: 16px;
+
+    font-weight: 400;
+}
+
+li:before {
+    content: '\2714\0020';
+    color: #16D887;
+}
+
+.planning {
+    text-align: center;
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.my-mission {
+    display: flex;
+    gap: 99px;
+    padding-left: 280px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.aim {
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footer-image {
+    background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%), url(../images/watch.png );
+    background-repeat: no-repeat;
+    height: 300px;
+    color: white;
+    align-items: left;
+    justify-content: left;
+    position: relative;
+    margin: 130px 230px;
+
+}
+
+#footer-heading {
+    width: 459px;
+    height: 94px;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    padding-bottom: 24px;
+}
+
+#secondary {
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    border: 0;
+    background: #FFF;
+    color: #F15B22;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.gredient {
+    padding-left: 64px;
+    padding-top: 59px;
+}
+
+.last-div {
+    display: flex;
+    gap: 313px;
+    background: var(--Dark-01, #151414);;
+    padding-left: 230px;
+    padding-right: 130px;
+    padding-top: 130px;
+    padding-bottom: 130px;
+
+   
+}
+
+.footer-description {
+    color: #FFF;
+    width: 485px;
+    height: 78px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-bottom: 24px;
+
+}
+
+#email {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 16px;
+
+}
+
+#phone {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 32px;
+}
+
+#footer-heading {
+    color: #F8F8F8;
+    width: 148px;
+    height: 53px;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 700;
+    padding-bottom: 16px;
+}
+
+#Subscribe {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 32px;
+}
+
+.email {
+    width: 1600px;
+    width: 200px;
+    height: 64px;
+    background: #151414;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    color: #F3F3F3;
+    font-size: 18px;
+    font-weight: 400;
+    
+    
+    
+    
+}
+
+.last-button {
+    width: 170.106px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FFF;
+    color: #F15B22;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 16px;
+}
